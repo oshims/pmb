@@ -6,7 +6,7 @@
  <!-- BEGIN HEAD -->
 <head>
   <meta charset="UTF-8" />
-  <title>BCORE Admin Dashboard Template | Advance Forms</title>
+  <title>PMB Backend</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 	<meta content="" name="description" />
 	<meta content="" name="author" />
@@ -15,33 +15,27 @@
         <![endif]-->
     <!-- GLOBAL STYLES -->
     <!-- GLOBAL STYLES -->
-    <base href="http://localhost/pmb/assets/" />
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/theme.css" />
-    <link rel="stylesheet" href="css/MoneAdmin.css" />
-    <link rel="stylesheet" href="plugins/Font-Awesome/css/font-awesome.css" />
+    <base href="http://localhost/pmb/" />
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/css/MoneAdmin.css" />
+    <link rel="stylesheet" href="assets/plugins/Font-Awesome/css/font-awesome.css" />
     <!--END GLOBAL STYLES -->
 
     <!-- PAGE LEVEL STYLES -->
-
-    <link href="css/jquery-ui.css" rel="stylesheet" />
-    <link rel="stylesheet" href="plugins/uniform/themes/default/css/uniform.default.css" />
-    <link rel="stylesheet" href="plugins/inputlimiter/jquery.inputlimiter.1.0.css" />
-    <link rel="stylesheet" href="plugins/chosen/chosen.min.css" />
-    <link rel="stylesheet" href="plugins/colorpicker/css/colorpicker.css" />
-    <link rel="stylesheet" href="plugins/tagsinput/jquery.tagsinput.css" />
-    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker-bs3.css" />
-    <link rel="stylesheet" href="plugins/datepicker/css/datepicker.css" />
-    <link rel="stylesheet" href="plugins/timepicker/css/bootstrap-timepicker.min.css" />
-    <link rel="stylesheet" href="plugins/switch/static/stylesheets/bootstrap-switch.css" />
-
+    <link href="assets/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/jquery-ui.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/plugins/uniform/themes/default/css/uniform.default.css" />
+    <link rel="stylesheet" href="assets/plugins/inputlimiter/jquery.inputlimiter.1.0.css" />
+    <link rel="stylesheet" href="assets/plugins/chosen/chosen.min.css" />
+    <link rel="stylesheet" href="assets/plugins/colorpicker/css/colorpicker.css" />
+    <link rel="stylesheet" href="assets/plugins/tagsinput/jquery.tagsinput.css" />
+    <link rel="stylesheet" href="assets/plugins/daterangepicker/daterangepicker-bs3.css" />
+    <link rel="stylesheet" href="assets/plugins/datepicker/css/datepicker.css" />
+    <link rel="stylesheet" href="assets/plugins/timepicker/css/bootstrap-timepicker.min.css" />
+    <link rel="stylesheet" href="assets/plugins/switch/static/stylesheets/bootstrap-switch.css" />
     <!-- END PAGE LEVEL  STYLES -->
-   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
 
 </head>
      <!-- END HEAD -->
@@ -58,7 +52,7 @@
                 <!-- LOGO SECTION -->
                 <header class="navbar-header">
                     <a href="index.html" class="navbar-brand">
-                    <img src="img/logo1.png" alt="" /></a>
+                    <img src="assets/img/logo1.png" alt="" /></a>
                 </header>
                 <!-- END LOGO SECTION -->
                 <ul class="nav navbar-top-links navbar-right">
@@ -150,7 +144,7 @@
        <div id="left">
             <div class="media user-media well-small">
                 <a class="user-link" href="#">
-                    <img class="media-object img-thumbnail user-img" alt="User Picture" src="img/user.gif" />
+                    <img class="media-object img-thumbnail user-img" alt="User Picture" src="assets/img/user.gif" />
                 </a>
                 <br />
                 <div class="media-body">
@@ -166,14 +160,9 @@
 
             <ul id="menu" class="collapse">
                 <li class="panel ">
-                    <a href="index.html" ><i class="icon-table"></i> Dashboard</a>
-                    <a href="index.html" ><i class="icon-table"></i> Dashboard</a>
-                    <a href="index.html" ><i class="icon-table"></i> Dashboard</a>
-                    <a href="index.html" ><i class="icon-table"></i> Dashboard</a>
-                    <a href="index.html" ><i class="icon-table"></i> Dashboard</a>
-                    <a href="index.html" ><i class="icon-table"></i> Dashboard</a>
-                    <a href="index.html" ><i class="icon-table"></i> Dashboard</a>
-                    <a href="index.html" ><i class="icon-table"></i> Dashboard</a>
+                    <a href="pages/admin" ><i class="icon-home"></i> Dashboard</a>
+                    <a href="pages/admin/pages/list_petugas.php" ><i class="icon-user"></i> Petugas</a>
+                    <a href="pages/admin/pages/list_camaba.php" ><i class="icon-group"></i> Daftar Calon Mahasiswa</a>
                 </li>
             </ul>
         </div>
